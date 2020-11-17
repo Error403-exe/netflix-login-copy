@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #999;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica neue', Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: rgba(0, 0, 0);
+}
+
+.background{
+    background-size: cover;    
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    display: block;
+    z-index: -1;
+    opacity: 0.45;
+}
+
+header{
+    height: 70px;
+}
+
+header img{
+    height: 60px;
+    opacity: 0.95;
+    margin: 18px 0 0 35px;
+}
+
+main{
+   display: flex;
+   justify-content: center;
+   margin: 30px 0;
+}
+
+.container{
+    width: 450px;
+    background-color: rgba(0, 0, 0, .7);
+    color: white;
+    border-radius: 4px;
+    padding-top: 40px;
+    
+}
+
+.container div{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.login h1{
+    margin: 20px 0;
+    color: white;
+}
+
+.login button{
+    background-color: #e50914;
+    border-color: #e50914;
+    margin-top: 50px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.login-form{
+    width: 100%;
+    height: 47px;
+    margin: 9px 0;
+    border: 1px solid #444;
+    border-radius: 4px;
+    background-color: #444;
+    color: white;
+}
+
+.login-form::-webkit-input-placeholder{
+    font-size: 14px;
+    color: #999;
+    padding-left: 15px;
+}
+
+div .lembrar{
+    font-size: 13px;
+    width: auto;
+    color: #999;
+    margin-bottom: 30px;
+}
+
+.lembrar input{
+    height: 15px;
+    width: 15px;
+    border: 1px solid white;
+    border-radius: 2px;
+    position: relative;
+    top: 3px;
+}
+
+.lembrar a{
+    margin-left: 80px;
+    text-decoration: none;
+    color: #999;
+}
+
+.cadastro{
+    margin: 60px 0 150px 0;
+    font-size: 14px;
+}
+
+.cadastro img{
+    height: 20px;
+    border-radius: 2px;
+    position: relative;
+    top: 4px;
+}
+
+.cadastro p{
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.cadastro p a{
+    color: white;
+}
+
+.cadastro p:nth-child(3){
+    font-size: 13px;
+}
+
+.cadastro p:nth-child(3) a{
+    color: #0071eb;
+}
+
+
+footer{
+    width: 100%;
+    height: 250px;
+    background-color: rgba(0, 0, 0, .7);
+    margin-top: 83px;
+}
+
+footer div{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
